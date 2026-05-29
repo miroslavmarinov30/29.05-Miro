@@ -1,80 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f4f4f4;
-        }
-        
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-        
-        main {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-        
-        section {
-            background-color: white;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        
-        h1 {
-            margin-bottom: 1rem;
-        }
-        
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            margin-top: 2rem;
-        }
-    </style>
+    <title>Моят мини сайт</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Project</h1>
-    </header>
-    
-    <main>
-        <section>
-            <h2>Getting Started</h2>
-            <p>This is a simple HTML starter template. Feel free to customize it with your own content and styles.</p>
-        </section>
-        
-        <section>
-            <h2>Features</h2>
-            <ul>
-                <li>Clean and simple structure</li>
-                <li>Responsive design</li>
-                <li>Basic styling included</li>
-            </ul>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2026 My Project. All rights reserved.</p>
-    </footer>
+
+<header style="background:lightblue; margin:10px;">
+    <h1>Моят мини сайт</h1>
+</header>
+
+<nav style="background:lightgray; margin:10px;">
+    <ul>
+        <li style="display:inline; margin:10px;">
+            <a href="index.html" style="color:blue;">Начало</a>
+        </li>
+        <li style="display:inline; margin:10px;">
+            <a href="about.html" style="color:green;">За мен</a>
+        </li>
+        <li style="display:inline; margin:10px;">
+            <a href="hobby.html" style="color:red;">Хоби</a>
+        </li>
+        <li style="display:inline; margin:10px;">
+            <a href="contact.html" style="color:purple;">Контакти</a>
+        </li>
+    </ul>
+</nav>
+
+<section>
+
+    <div style="background:lightblue; margin:10px;">
+        <h2>За мен</h2>
+        <p>Здравей! Това е моят <b>първи сайт</b>.</p>
+        <img src="img/image.jpg" width="200">
+    </div>
+
+    <div style="background:lightgreen; margin:10px;">
+        <h2>Моето хоби</h2>
+        <p>Обичам <i>спорт</i>, <u>игри</u> и музика.</p>
+        <hr>
+        <a href="https://youtube.com&quot; target="_blank">Любим сайт</a>
+    </div>
+
+</section>
+
+<footer style="background:lightgreen; margin:10px;">
+    <p>© 2026 Моят сайт</p>
+</footer>
+
 </body>
 </html>
